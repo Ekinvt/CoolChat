@@ -1,13 +1,17 @@
 // Your web app's Firebase configuration
-var firebaseConfig = {
-  apiKey: "AIzaSyDwi0UwNWDWk44vhpzIiODlaqUXgRYQKC0",
-  authDomain: "kwitter-bee0a.firebaseapp.com",
-  databaseURL: "https://kwitter-bee0a-default-rtdb.firebaseio.com",
-  projectId: "kwitter-bee0a",
-  storageBucket: "kwitter-bee0a.appspot.com",
-  messagingSenderId: "653934654762",
-  appId: "1:653934654762:web:ccb3d4c26b26dc5fd19a53"
-};
+// Your web app's Firebase configuration
+const firebaseConfig = {
+      apiKey: "AIzaSyAAw4LgMjkuydgPR2VXM6hM4SxLJW5agbs",
+      authDomain: "cool-12859.firebaseapp.com",
+      databaseURL: "https://cool-12859-default-rtdb.firebaseio.com",
+      projectId: "cool-12859",
+      storageBucket: "cool-12859.appspot.com",
+      messagingSenderId: "316429373553",
+      appId: "1:316429373553:web:d79923fe7f663ed54dcbd0"
+    };
+    
+    // Initialize Firebase
+    const app = initializeApp(firebaseConfig);
 
 // Initialize Firebase
 const app = firebase.initializeApp(firebaseConfig);
