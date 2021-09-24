@@ -1,17 +1,13 @@
 // Your web app's Firebase configuration
-// Your web app's Firebase configuration
-const firebaseConfig = {
-      apiKey: "AIzaSyAAw4LgMjkuydgPR2VXM6hM4SxLJW5agbs",
-      authDomain: "cool-12859.firebaseapp.com",
-      databaseURL: "https://cool-12859-default-rtdb.firebaseio.com",
-      projectId: "cool-12859",
-      storageBucket: "cool-12859.appspot.com",
-      messagingSenderId: "316429373553",
-      appId: "1:316429373553:web:d79923fe7f663ed54dcbd0"
-    };
-    
-    // Initialize Firebase
-    const app = initializeApp(firebaseConfig);
+var firebaseConfig = {
+  apiKey: "AIzaSyAAw4LgMjkuydgPR2VXM6hM4SxLJW5agbs",
+  authDomain: "cool-12859.firebaseapp.com",
+  databaseURL: "https://cool-12859-default-rtdb.firebaseio.com",
+  projectId: "cool-12859",
+  storageBucket: "cool-12859.appspot.com",
+  messagingSenderId: "316429373553",
+  appId: "1:316429373553:web:d79923fe7f663ed54dcbd0"
+};
 
 // Initialize Firebase
 const app = firebase.initializeApp(firebaseConfig);
